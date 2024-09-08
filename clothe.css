@@ -1,0 +1,308 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+
+  background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    overflow: scroll;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: #e0dada;
+  padding: 1rem 0;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #c7baba;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.social-buttons {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-buttons .btn {
+  background-color: #f5e1e1;
+  display: inline-block;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #5c584e;
+  font-size: 23px;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.social-buttons .btn:hover {
+  color: whitesmoke;
+  transform: scale(1.05);
+}
+
+
+.hero {
+  background-image: url('best.PNG');
+  background-size: cover; 
+  padding: 100px 0;
+  color: #f5e1e1;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color:#f5e1e1 ;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #333;
+  color: #ddd;
+  
+}
+
+
+/*.products {
+  padding: 50px 0;
+  background-color: rgb(230, 160, 111);
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: lemonchiffon;
+  border: 1px solid #ddd;
+  padding: 10px;
+  flex: 1 1 20%;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+}
+
+.product-card p {
+  font-size: 1.2rem;
+  color: #f8b400;
+}*/
+
+.products {
+  padding: 20px 50px;
+  text-align: center;
+  background-color: rgb(230, 160, 111);
+}
+
+.products h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.product-item {
+  
+  border: 1px solid rgb(230, 160, 111);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.product-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgb(231, 131, 59);
+}
+
+.product-item img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.product-item p {
+  font-size: 1.2rem;
+  color: #242016;
+  margin-bottom: 20px;
+}
+
+.add-to-cart {
+  font-family:Arial, sans-serif;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: rgb(4, 4, 34);
+  color: #fff;
+}
+
+
+.about {
+  padding: 50px 0;
+  background-color: rgb(230, 160, 111);
+  text-align: center;
+}
+
+.contact-us {
+  background-color: rgb(230, 160, 111); 
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+}
+
+.contact-us h2 {
+  color: #333; 
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.contact-us p {
+  font-size: 18px;
+  color: #666; 
+  margin: 10px 0;
+}
+
+.contact-us a {
+  color: #007BFF; 
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.contact-us a:hover {
+  color: #0056b3; 
+}
+
+.contact-us p a {
+  font-weight: bold;
+}
+
+.contact-us p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+
+.social-media{ 
+  padding: 50px 0;
+  background-color: transparent;
+  text-align: center;
+  background-color: rgb(230, 160, 111);
+}
+
+.social-media h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icon img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+  border-radius: 50%; 
+  border: 1px solid #ddd;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.social-icon:hover img {
+  transform: scale(1.1);
+  background-color: #333; 
+}
+
+footer {
+  background-color: #333;
+  color: #ece0e0;
+  text-align: center;
+  padding: 20px 0;
+}
+
